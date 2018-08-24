@@ -1,0 +1,27 @@
+{
+  "name": "display-controller",
+  "version": "1.0.0",
+  "description": "controll display power status via HTTP/HTTPS on Windows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.11.4",
+    "npm": ">=5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vt750s/display-controller.git"
+  },
+  "author": "vt750s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vt750s/display-controller/issues"
+  },
+  "homepage": "https://github.com/vt750s/display-controller#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
